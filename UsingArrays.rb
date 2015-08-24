@@ -23,9 +23,4 @@ num = []     #This creates an empty array which we call num
     break                      # The break is necessary otherwise loop will be infinite
     end                        #Take note of the double end
  end                            #The first end ends 10 times loop the second one ends the while loop
-   while numlist <= 1
-    num << (numlist)
-    puts numlist
-    break
-    end
- end
+   
