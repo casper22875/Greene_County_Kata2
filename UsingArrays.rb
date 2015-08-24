@@ -11,7 +11,18 @@ puts "List number one 10 times"
 numlist = 1
 num = []
 
-10.times do
+puts "List number one 10 times" #Simple puts statement
+
+numlist = 1 #This is saying a variable has the value of number 1
+num = []     #This creates an empty array which we call num
+
+10.times do  #Same 10 times as above
+   while numlist <= 1   #While loop as long as statement is true it will run
+    num << (numlist)   #This line "pushes" the value of one into the array
+    puts numlist           #This displays the array on screen
+    break                      # The break is necessary otherwise loop will be infinite
+    end                        #Take note of the double end
+ end                            #The first end ends 10 times loop the second one ends the while loop
    while numlist <= 1
     num << (numlist)
     puts numlist
