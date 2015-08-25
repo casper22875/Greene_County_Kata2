@@ -65,13 +65,27 @@ puts base100
  end
 
 #Replacing every number divisible by 3 with Greene
-base100 = 0
+base100 = 1
  numarray2 = []
  while 
- base100 <= 99
+ base100 <= 100
  
  if base100%3 == 0
  numarray2 << ("Greene")
+ else
+ numarray2 << (base100)
+ end
+ base100 += 1
+ end
+
+#Replacing every number divisible by five with County
+ base100 = 1
+ numarray2 = []
+ while 
+ base100 <= 100
+ 
+ if base100%5 == 0
+ numarray2 << ("County")
  else
  numarray2 << (base100)
  end
