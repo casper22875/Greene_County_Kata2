@@ -63,3 +63,17 @@ puts base100
  end
  base100 += 1
  end
+
+#Replacing every number divisible by 3 with Greene
+base100 = 0
+ numarray2 = []
+ while 
+ base100 <= 99
+ 
+ if base100%3 == 0
+ numarray2 << ("Greene")
+ else
+ numarray2 << (base100)
+ end
+ base100 += 1
+ end
