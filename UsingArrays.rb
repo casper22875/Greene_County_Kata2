@@ -91,3 +91,23 @@ base100 = 1
  end
  base100 += 1
  end
+
+#Replacing every number divisible by three and five with GreeneCounty
+ base100 = 1
+ numarray2 = []
+ while 
+ base100 <= 100
+ 
+ if base100%3 == 0 && base100%5 == 0
+ numarray2 << ("GreeneCounty")
+ elsif base100%3 == 0
+ numarray2 << ("Greene")
+ elsif base100%5 ==0
+ numarray2 << ("County")
+ elsif
+ numarray2 << (base100)
+ end
+ base100 += 1
+ end
+ 
+ numarray2
