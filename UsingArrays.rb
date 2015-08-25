@@ -24,3 +24,18 @@ num = []     #This creates an empty array which we call num
     end                        #Take note of the double end
  end                            #The first end ends 10 times loop the second one ends the while loop
    
+puts "Numbers one thru ten"
+ base10 = [1,2,3,4,5,6,7,8,9,10] #An array 1-10
+ 
+ puts base10
+ 
+ #or we can do it this way
+
+
+base10 = 0
+ numarray = []   #same but different way of coding it 
+ 
+ while base10 <= 9
+ numarray << (base10 += 1)
+ puts base10       #Same output of 1-10
+ end
