@@ -111,3 +111,9 @@ base100 = 1
  end
  
  numarray2
+
+puts "Which index position would you like to see?"
+user = gets.chomp.to_i
+
+ 
+ print "The value at index position #{user}  is #{numarray2.fetch(user)}"
