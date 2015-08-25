@@ -39,3 +39,13 @@ base10 = 0
  numarray << (base10 += 1)
  puts base10       #Same output of 1-10
  end
+
+# 100 numbers in an array
+base100 = 0
+numarray2 = []
+
+while
+base100 <= 99
+numarray2 << (base100 += 1)
+puts base100
+ end
