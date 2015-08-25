@@ -49,3 +49,17 @@ base100 <= 99
 numarray2 << (base100 += 1)
 puts base100
  end
+
+#Replacing number three with Greene
+ base100 = 0
+ numarray2 = []
+ while 
+ base100 <= 99
+ 
+ if base100 == 3
+ numarray2 << ("Greene")
+ else
+ numarray2 << (base100)
+ end
+ base100 += 1
+ end
